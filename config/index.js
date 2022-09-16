@@ -88,21 +88,7 @@ export const config = {
         {"keyword": "love_day", date: "2022-08-04"},
       ]
     },
-    {
-      name: "老婆1",
-      id: "oJYky6d4vcx1WzMH_GTd_rjn5QvM",
-      useTemplateId: "Yy2cCDZerZC4x-jkfvBhi2_r0ExlNN9_o2FcYa1Vf5w",
-      province: "山东",
-      city: "潍坊",
-      horoscopeDate: '9-9',
-      horoscopeDateType: '今日',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [ {"type": "*生日", "name": "宝宝", "year": "2003", "date": "9-9"},
-        {"type": "节日", "name": "纪念日", "year": "2022", "date": "08-04"},],
-      customizedDateList: [ // 在一起的日子
-        {"keyword": "love_day", date: "2022-08-04"},
-      ]]
-    },
+    
     {
       name: "老婆2",
       id: "",
