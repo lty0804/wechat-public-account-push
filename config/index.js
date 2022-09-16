@@ -62,9 +62,9 @@ export const config = {
       // 想要发送的人的名字
       name: "宝宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oJYky6d4vcx1WzMH_GTd_rjn5QvM",
+      id: "oJYky6QeftnfxzlulEH4iaIW_cPE",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "L6wa3eoT0iEoC_C8-JUYw0BPzOVxMom2qBrELys_sp8",
+      useTemplateId: "Yy2cCDZerZC4x-jkfvBhi2_r0ExlNN9_o2FcYa1Vf5w",
       // 所在省份
       province: "山东",
       // 所在城市
@@ -78,7 +78,7 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "老婆", "year": "2003", "date": "09-09"},
+        {"type": "*生日", "name": "宝宝", "year": "2003", "date": "9-9"},
         {"type": "节日", "name": "纪念日", "year": "2022", "date": "08-04"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符
       ],
@@ -90,15 +90,18 @@ export const config = {
     },
     {
       name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      id: "oJYky6d4vcx1WzMH_GTd_rjn5QvM",
+      useTemplateId: "Yy2cCDZerZC4x-jkfvBhi2_r0ExlNN9_o2FcYa1Vf5w",
+      province: "山东",
+      city: "潍坊",
+      horoscopeDate: '9-9',
+      horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      festivals: [ {"type": "*生日", "name": "宝宝", "year": "2003", "date": "9-9"},
+        {"type": "节日", "name": "纪念日", "year": "2022", "date": "08-04"},],
+      customizedDateList: [ // 在一起的日子
+        {"keyword": "love_day", date: "2022-08-04"},
+      ]]
     },
     {
       name: "老婆2",
